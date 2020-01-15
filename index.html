@@ -8,6 +8,30 @@
     <title></title>
   </head>
   <body>
+    <div class= "container">
+      <div class="row">
+      <form id="cup2galForm">
+        <div class="form-group col-md-6">
+          <label for="cup2gal">Number of Cups</label>
+          <input id="cup2gal" class="form-control" type="text">
+          <button type="submit" id="cupsBtn">Submit</button>
+        </div>
+      </form>
+      <form id="gal2cupForm">
+          <div class="form-group col-md-6">
+            <label for="gal2cup">Number of Gallons</label>
+            <input id="gal2cup" class="form-control" type="text">
+            <button type="submit" class="btn btn-primary" id="galsBtn">Submit</button>
+          </div>
+        </div>
+        <div id="cupsResult">
+          <p><span class="cupsResult"></span> Gallons</p>
+        </div>
+        <div id="galsResult">
+          <p><span class="galsResult"></span> Cups</p>
+        </div>
+      </form>
 
+    </div>
   </body>
 </html>
