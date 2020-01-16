@@ -4,3 +4,6 @@
 #galsResult {
     display: none;
 }
+.btn {
+    float: right;
+}

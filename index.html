@@ -11,27 +11,50 @@
     <div class= "container">
       <div class="row">
       <form id="cup2galForm">
-        <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
           <label for="cup2gal">Number of Cups</label>
           <input id="cup2gal" class="form-control" type="text">
-          <button type="submit" id="cupsBtn">Submit</button>
+          <button type="submit" class="btn btn-primary" id="cupsBtn">Submit</button>
         </div>
       </form>
       <form id="gal2cupForm">
-          <div class="form-group col-md-6">
+          <div class="form-group col-md-4">
             <label for="gal2cup">Number of Gallons</label>
             <input id="gal2cup" class="form-control" type="text">
             <button type="submit" class="btn btn-primary" id="galsBtn">Submit</button>
           </div>
         </div>
-        <div id="cupsResult">
-          <p><span class="cupsResult"></span> Gallons</p>
-        </div>
-        <div id="galsResult">
-          <p><span class="galsResult"></span> Cups</p>
-        </div>
       </form>
+      <div class="row">
+        <form id="tea2TableForm">
+          <div class="form-group col-md-4">
+            <label for="tea2Table">Number of Teaspoons</label>
+            <input id="tea2Table" class="form-control" type="text">
+            <button type="submit" class="btn btn-primary" id="cupsBtn">Submit</button>
+          </div>
+        </form>
+      <form id="table2TeaForm">
+        <div class="form-group col-md-4">
+          <label for="table2Tea">Number of Tablespoons</label>
+          <input id="table2Tea" class="form-control" type="text">
+          <button type="submit" class="btn btn-primary" id="galsBtn">Submit</button>
+        </div>
+      </div>
+      <button type="reset" id="reset-btn">Reset</button>
 
+
+      <!-- <div class="row">
+        <div class="input-group col-md-6">
+          <input type="text" class="form-control">
+          <span class="input-group-btn">
+               <button class="btn btn-info" type="button">Go!</button>
+          </span>
+       </div>
+      </div> -->
+    
+     </div>
+      </div>
+    </form>
     </div>
   </body>
 </html>
